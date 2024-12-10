@@ -55,6 +55,7 @@ php artisan storage:link
 ```
 
 ## Admin Credentials
+url: ```http://127.0.0.1:8000/login```
 Admin: 
 ```bash 
 tauseed@test.com
