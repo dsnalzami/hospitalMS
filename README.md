@@ -66,5 +66,17 @@ Password:
 tauseed
 ```
 
+## Add Admin
+```php
+use App\Models\User;
+
+User::create([
+    'name' => 'Admin',
+    'email' => 'admin@example.com',
+    'password' => bcrypt('password'),
+    'role_id' => 1 
+]);
+```
+
 ## If you like our project please leave a star ❤
 
